@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.calculator {
+    height: 80vh;
+    width: 50%;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calculator button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(72, 227, 255);
+    cursor: pointer;
+    font-size: 20px;
+}
+.calculator button:hover {
+    background-color: white;
+}
+.display  {
+    margin-bottom: 20px;
+    height: 80px;
+    width: 245px;
+
+}
+.display input {
+    height: 80px;
+    width: 100%;
+    text-align: end;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.calculator h1 {
+    color: blue; 
+   
+   margin-bottom: 10px; text-align: center;
+}
+.opt {
+    color: green;
+}
